@@ -1,0 +1,255 @@
+/*global*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 2800px;
+}
+.clear{
+    float: both;
+}
+
+
+
+
+
+/*=========nav=============*/
+.mnav{
+    background-color:white;
+    height: 70px;
+}
+.logo{
+    float: left;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    
+    color: navy;
+}
+.nav{
+    float: right;
+    text-decoration: none;
+    font-size: 18px;
+    
+   
+}
+.list{
+    list-style: none;
+ 
+}
+.li ,.color{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 15px 15px 15px;
+    color: navy;
+}
+.links{
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    margin-top: 30px;
+    
+    color: navy;
+
+}
+/*============haeder========*/
+
+
+header{
+    height: 700px;
+    background-image: url(images/2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    background-color: rgba(0, 0, 128, 0.445);
+}
+.haederTitle{
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 10px;
+    font-family: tahoma;
+    font-size: 40px;
+}
+.HeaderP{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: tahoma;
+   
+}
+.buttons{
+    text-align: center;
+}
+.Read .lin1{
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    border: white 1px solid;
+    padding: 5px 20px;
+    color: white;
+    
+}
+.download .lin2{
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 20px;
+    color: white;
+    background-color: darkblue;
+}
+/*============main============*/
+
+main {
+    height: 300px;
+}
+
+.mainTitle{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 30px;
+    color: navy;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+.mainContent{
+    text-align: center;
+    font-family: tahoma;
+    
+    padding: 15px;
+    font-size: 20px;
+}
+.mli{
+    text-decoration: none;
+    color: navy;
+}
+/*===========s4============*/
+
+.sectionfour{
+    height: 650px;
+    background-image: url(images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionfourp1{
+    position: absolute;
+    height: 30px;
+    background-color: rgba(128, 0, 128, 0.452);
+    color: white;
+    padding:10px 10px 10px 10px;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 30px;
+    border: 1px white solid;
+    
+}
+.sectionfourp2{
+
+    position: absolute;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    padding:10px 10px 10px 10px;
+    width: 500px;
+    margin-top: 270px;
+    margin-left: 30px;
+    border: 1px white solid;
+}
+.s4d{
+    position: absolute;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    background-color: rgba(0, 0, 128, 0.466);
+    color: white;
+    border: white solid 1px;
+    margin: 500px 450px 220px 550px  ;
+    
+}
+/*========================s5=================*/
+.p1,.p2,.p3{
+    display: inline-block;
+    margin: 50px;
+  
+
+}
+.p1{
+    margin-left: 100px;
+}
+
+.i1,.i2,.i3{
+    width: 300px;
+    height: 200px;
+    border: black 1px solid;
+    
+}
+
+.sen1,.sen2,.sen3{
+    display: inline-block;
+    margin:20px 50px 50px 50px;
+    width: 300px;
+
+}
+.sen1{
+    margin-left: 100px;
+}
+/*==========footer=========*/
+.hr{
+    border: solid 1px navy;
+    margin: 15px 20px;
+    
+}
+footer{
+    height: 300px;
+    text-align: center;
+}
+.footerTitle{
+    font-family: tahoma;
+    font-size: 40px;
+    text-align: center;
+
+}
+.footerp{
+    font-family: tahoma;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+.email-input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    
+}
+
+ .subscribe-button {
+    padding: 10px 20px;
+    background-color: #6a1b9a;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    
+
+    
+}  
+
+
+.subscribe-container{
+    display: inline-block;
+    margin-top: 30px;
+    border: 1px solid black;
+    overflow: hidden;
+    
+}
+
+
